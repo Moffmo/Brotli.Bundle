@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>Brotli.Bundle</id>
+    <version>1.0</version>
+    <title>Brotli Bundle</title>
+    <authors>Matthew Batten</authors>
+    <owners>moffmo</owners>
+    <licenseUrl>https://opensource.org/licenses/MIT</licenseUrl>
+    <projectUrl>https://github.com/Moffmo/Brotli.Bundle</projectUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Brotli offers up to 30% more compression than gzip. This is a simple bundle with Brotli compression with fallback to gzip and deflate</description>
+    <summary>Brotli offers up to 30% more compression than gzip. This is a simple bundle with Brotli compression with fallback to gzip and deflate</summary>
+    <releaseNotes>Initial Release</releaseNotes>
+    <copyright>Copyright 2018</copyright>
+    <tags>Brotli.Bundle BrotliBundle Brotli Bundle Gzip GzipBundle Gzip.Bundle Optimization</tags>
+    <dependencies>
+      <dependency id="Brotli.NET" version="1.0.0" />
+      <dependency id="GzipBundle" version="1.0.0" />
+      <dependency id="Microsoft.AspNet.Web.Optimization" version="1.1.0" />
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="..\readme.md" target="" />
+  </files>
+</package>
