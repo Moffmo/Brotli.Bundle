@@ -1,9 +1,11 @@
 # BrotliBundle
-A simple Bundle with Brotli compression that falls back to Deflate and Gzip
+Brotli can reduce file sizes by up to 30% more than gzip.
+
+This is a simple bundle with Brotli compression that falls back to Gzip and deflate
 
 ## Installation
 
-You can download this bundle in the [NuGet](https://www.nuget.org/packages/GzipBundle/).
+You can download this bundle in the [NuGet](https://www.nuget.org/packages/Brotli.Bundle/).
 
 ## How to use
 
@@ -42,6 +44,6 @@ bundles.Add(new BrotliStyleBundle("~/Content/bootstrap",
 
 ## Thanks
 
-Thanks to [nolleto](https://github.com/nolleto) (Author of [GzipBundle]((https://github.com/nolleto/GzipBundle/))
+Thanks to [nolleto](https://github.com/nolleto) (Author of [GzipBundle](https://github.com/nolleto/GzipBundle/))
 
 Thanks to [XieJJ99](https://github.com/XieJJ99) (Author of [Brotli.Net](https://github.com/XieJJ99/brotli.net))
